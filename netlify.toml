@@ -1,0 +1,4 @@
+[[redirects]]
+from="/*"
+to=".output/public/index.html"
+status=200
