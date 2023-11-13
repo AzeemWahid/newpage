@@ -20,12 +20,14 @@
 
         <div class="p-2">
           <label for="email" class="block font-semibold py-1">Your email address </label>
-          <input id="email" name="email" required type="email" class="input input-bordered input-primary rounded-sm w-full p-2">
+          <input id="email" name="email" required type="email"
+            class="input input-bordered input-primary rounded-sm w-full p-2">
         </div>
 
         <div class="p-2">
           <label for="phone" class="block font-semibold py-1">Your contact number </label>
-          <input id="phone" name="phone" required type="tel" class="input input-bordered input-primary rounded-sm w-full p-2">
+          <input id="phone" name="phone" required type="tel"
+            class="input input-bordered input-primary rounded-sm w-full p-2">
         </div>
 
         <div class="p-2">
@@ -36,7 +38,7 @@
           <div v-if="message" class="text-sm text-purple-400"> {{ messageLength }}</div>
         </div>
         <div class="px-2 pt-2 flex justify-end">
-          <button class="btn btn-active btn-primary text-white" type="submit" @click="(event) => event.preventDefault">
+          <button class="btn btn-active btn-primary text-white" type="submit" @click="(event) => event.preventDefault()">
             Submit </button>
         </div>
       </form>
