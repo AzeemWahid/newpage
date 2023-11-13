@@ -8,4 +8,11 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+
+  modules: ['nuxt-gtag', '@nuxt/image'],
+
+  gtag: {
+    id: 'G-B8VRZVTMNY'
+  },
+
 });

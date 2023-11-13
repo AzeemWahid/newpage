@@ -14,25 +14,18 @@
       </div>
     </div>
 
-    <div
-      class="flex flex-col items-center md:flex-row md:flex-wrap md:justify-center gap-6 md:gap-0 md:items-stretch"
-    >
-      <div
-        class="card max-w-[90%] md:max-w-[35%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-sm"
-      >
+    <div class="flex flex-col items-center md:flex-row md:flex-wrap md:justify-center gap-6 md:gap-0 md:items-stretch">
+      <div class="card max-w-[90%] md:max-w-[35%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-xl">
         <img src="/images/responsive-wide.png" class="pt-2" />
         <div class="card-body flex justify-end">
           <div class="card-title text-2xl text-primary">Responsive Design</div>
           <span class="font-semibold">
             Your website should look beautiful and mould perfectly to the screen
-            of any device.</span
-          >
+            of any device.</span>
         </div>
       </div>
 
-      <div
-        class="card max-w-[90%] md:max-w-[35%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-sm"
-      >
+      <div class="card max-w-[90%] md:max-w-[35%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-xl">
         <img src="/images/ui-wide.png" />
         <div class="card-body">
           <div class="card-title text-2xl text-primary">Seamless Interface</div>
@@ -45,9 +38,7 @@
         </div>
       </div>
 
-      <div
-        class="card max-w-[90%] md:max-w-[35%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-sm"
-      >
+      <div class="card max-w-[90%] md:max-w-[35%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-xl">
         <img src="/images/security1.png" />
         <div class="card-body">
           <div class="card-title text-2xl text-primary">Security</div>
@@ -60,9 +51,7 @@
         </div>
       </div>
 
-      <div
-        class="card max-w-[90%] md:max-w-[35%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-sm"
-      >
+      <div class="card max-w-[90%] md:max-w-[35%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-xl">
         <img src="/images/speed.png" class="pt-6" />
         <div class="card-body flex justify-end">
           <div class="card-title text-2xl text-primary">High Performance</div>
@@ -88,47 +77,41 @@
       </div>
 
       <div
-        class="flex flex-col items-center md:flex-row md:flex-wrap md:justify-center gap-6 md:gap-0 md:items-stretch mb-12"
-      >
-        <div
-          class="card max-w-[90%] md:max-w-[40%] lg:max-w-[25%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-sm"
-        >
-          <img src="/images/speed.png" class="pt-6" />
+        class="flex flex-col items-center md:flex-row md:flex-wrap md:justify-center gap-6 md:gap-0 md:items-stretch mb-12">
+        <div class="card max-w-[90%] md:max-w-[40%] lg:max-w-[25%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-xl">
+          <img src="/images/logo.png" class="pt-6" />
           <div class="card-body flex justify-end">
             <div class="card-title text-2xl text-primary">Logo Design</div>
             <span class="font-semibold">
-              With all these demands, it can seem like a lot to manage, but your
-              website should still deliver them all and remain
-              <span class="text-accent">blazing fast!</span>
+              Essence Captured: A logo is the most recognizable part of your brand. Our designers craft logos that <span
+                class="text-accent"> encapsulate</span> your business's spirit, making you memorable at every glance.
+              <span class="text-accent"> </span>
             </span>
           </div>
         </div>
 
-        <div
-          class="card max-w-[90%] md:max-w-[40%] lg:max-w-[25%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-sm"
-        >
-          <img src="/images/speed.png" class="pt-6" />
+        <div class="card max-w-[90%] md:max-w-[40%] lg:max-w-[25%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-xl">
+          <img src="/images/branding.png" class="pt-6" />
           <div class="card-body flex justify-end">
             <div class="card-title text-2xl text-primary">Branding Design</div>
             <span class="font-semibold">
-              With all these demands, it can seem like a lot to manage, but your
-              website should still deliver them all and remain
-              <span class="text-accent">blazing fast!</span>
+              Unified Presence: From color palettes to typography, we build a comprehensive brand design that resonates
+              with your business values and communicates <span class="text-accent">consistency</span> across all
+              platforms.
             </span>
           </div>
         </div>
 
-        <div
-          class="card max-w-[90%] md:max-w-[40%] lg:max-w-[25%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-sm"
-        >
-          <img src="/images/speed.png" class="pt-6" />
+        <div class="card max-w-[90%] md:max-w-[40%] lg:max-w-[25%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-xl">
+          <img src="/images/advertising.png" class="pt-6" />
           <div class="card-body flex justify-end">
             <div class="card-title text-2xl text-primary">
               Advertisement Design
             </div>
             <span class="font-semibold">
-              Branding and websites go hand in hand, thats
-              <span class="text-accent">blazing fast!</span>
+              Stand Out, Effectively: Whether it's online ads, billboards, or print, our advertisement designs ensure that
+              your <span class="text-accent">message</span> isn't just seen—it's felt.
+
             </span>
           </div>
         </div>
@@ -142,11 +125,7 @@
         </div>
 
         <div class="flex flex-wrap w-[90%] md:w-[50%]">
-          <div
-            v-for="faq in faqData"
-            :key="faqData.question"
-            class="collapse ring-2 ring-secondary m-4"
-          >
+          <div v-for="faq in faqData" :key="faqData.question" class="collapse ring-2 ring-secondary m-4">
             <input type="radio" name="my-accordion-1" checked="checked" />
             <div class="collapse-title text-xl font-medium">
               {{ faq.question }}
