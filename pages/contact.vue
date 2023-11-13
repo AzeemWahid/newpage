@@ -10,6 +10,8 @@
         Tell us about your website
       </div>
       <form name="contact" method="POST" netlify>
+        <input type="hidden" name="form-name" value="contact" />
+
         <div class="p-2"> <label for="name" class="block font-semibold py-1">Your name </label>
           <input id="name" name="name" type="text" class="input input-bordered input-primary rounded-sm w-full p-2">
         </div>
@@ -39,7 +41,7 @@
 
 
     <div class="flex mx-auto justify-around w-[90%] md:w-[80%] my-16">
-      <NuxtLink to="https://wa.me/18684818374">
+      <NuxtLink to="https://wa.me/18684818374" target="blank">
         <div class="card shadow-xl p-8 hover:scale-110 ease-in duration-200">
           <NuxtImg src="/icons/whatsapp.svg" width="100" height="100" />
           <div class="pt-4 text-center font-semibold text-xl"> Whatsapp
@@ -47,7 +49,7 @@
         </div>
       </NuxtLink>
 
-      <NuxtLink to="tel:+18684818374">
+      <NuxtLink to="tel:+18684818374" target="blank">
         <div class="card shadow-xl p-8 hover:scale-110 ease-in duration-200">
           <NuxtImg src="/icons/phone.svg" width="100" height="100" />
           <div class="pt-4 text-center font-semibold text-xl">
@@ -56,7 +58,7 @@
         </div>
       </NuxtLink>
 
-      <NuxtLink to="mailto:newpagewebservices@gmail.com">
+      <NuxtLink to="mailto:newpagewebservices@gmail.com" target="blank">
         <div class="card shadow-xl p-8 hover:scale-110 ease-in duration-200">
           <NuxtImg src="/icons/email.svg" width="100" height="100" />
           <div class="pt-4 text-center font-semibold text-xl">
