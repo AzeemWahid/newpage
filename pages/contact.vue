@@ -9,7 +9,7 @@
       <div class="p-2 text-2xl font-bold">
         Tell us about your website
       </div>
-      <form name="contact" method="POST" action="/success" data-netlify="true" data-netlify-honeypot="bot-field">
+      <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact" />
 
         <div class="p-2">
@@ -65,7 +65,7 @@
 
       <NuxtLink to="mailto:newpagewebservices@gmail.com" target="blank">
         <div class="card shadow-xl p-8 hover:scale-110 ease-in duration-200 w-[50vw] md:w-[100%] mx-auto">
-          <NuxtImg src="/images/email.svg" width="100" height="100" class="mx-auto" />
+          <img src="/images/email.svg" width="100" height="100" class="mx-auto" />
           <div class="pt-4 text-center font-semibold text-xl">
             Email
           </div>
