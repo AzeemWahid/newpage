@@ -5,11 +5,11 @@
         class="btn bg-[url('/images/WhatsAppButtonGreenLarge.svg')] w-[200px]"
       ></button>
     </NuxtLink> -->
-    <div class="card rounded-sm w-[90%] md:w-[80%] mx-auto mt-12 p-8 shadow-xl">
+    <div class="card rounded-sm w-[90%] md:w-[65%] mx-auto mt-12 p-8 shadow-xl">
       <div class="p-2 text-2xl font-bold">
         Tell us about your website
       </div>
-      <form name="contact" method="POST" netlify>
+      <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact" />
 
         <div class="p-2"> <label for="name" class="block font-semibold py-1">Your name </label>
@@ -34,7 +34,7 @@
           <div v-if="message" class="text-sm text-purple-400"> {{ messageLength }}</div>
         </div>
         <div class="px-2 pt-2 flex justify-end">
-          <button class="btn btn-active btn-primary text-white" type="submit"> Submit </button>
+          <button class="btn btn-active btn-primary text-white" @click="submitForm" type="submit"> Submit </button>
         </div>
       </form>
     </div>
