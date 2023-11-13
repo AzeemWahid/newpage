@@ -12,21 +12,20 @@
       <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact" />
 
-        <div class="p-2"> <label for="name" class="block font-semibold py-1">Your name </label>
-          <input id="name" name="name" type="text" required
+        <div class="p-2">
+          <label for="name" class="block font-semibold py-1">Your name </label>
+          <input id="name" required name="name" type="text"
             class="input input-bordered input-primary rounded-sm w-full p-2">
         </div>
 
         <div class="p-2">
           <label for="email" class="block font-semibold py-1">Your email address </label>
-          <input id="email" name="email" type="email" required
-            class="input input-bordered input-primary rounded-sm w-full p-2">
+          <input id="email" name="email" required type="email" class="input input-bordered input-primary rounded-sm w-full p-2">
         </div>
 
         <div class="p-2">
           <label for="phone" class="block font-semibold py-1">Your contact number </label>
-          <input id="phone" name="phone" type="tel" required
-            class="input input-bordered input-primary rounded-sm w-full p-2">
+          <input id="phone" name="phone" required type="tel" class="input input-bordered input-primary rounded-sm w-full p-2">
         </div>
 
         <div class="p-2">
@@ -37,7 +36,8 @@
           <div v-if="message" class="text-sm text-purple-400"> {{ messageLength }}</div>
         </div>
         <div class="px-2 pt-2 flex justify-end">
-          <button class="btn btn-active btn-primary text-white" @click="submitForm" type="submit"> Submit </button>
+          <button class="btn btn-active btn-primary text-white" type="submit" @click="(event) => event.preventDefault">
+            Submit </button>
         </div>
       </form>
     </div>
@@ -82,10 +82,6 @@ const messageLength = computed(() => {
   return (1500 - message.value.length) + " remaining"
 })
 
-const submitForm = (event) => {
-  event.preventDefault()
-  console.log('test submit')
-}
 </script>
 
 <style lang="scss" scoped></style>
