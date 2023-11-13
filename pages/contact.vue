@@ -10,26 +10,29 @@
         Tell us about your website
       </div>
       <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="form-name" required value="contact" />
 
         <div class="p-2"> <label for="name" class="block font-semibold py-1">Your name </label>
-          <input id="name" name="name" type="text" class="input input-bordered input-primary rounded-sm w-full p-2">
+          <input id="name" name="name" type="text" required
+            class="input input-bordered input-primary rounded-sm w-full p-2">
         </div>
 
         <div class="p-2">
           <label for="email" class="block font-semibold py-1">Your email address </label>
-          <input id="email" name="email" type="email" class="input input-bordered input-primary rounded-sm w-full p-2">
+          <input id="email" name="email" type="email" required
+            class="input input-bordered input-primary rounded-sm w-full p-2">
         </div>
 
         <div class="p-2">
           <label for="phone" class="block font-semibold py-1">Your contact number </label>
-          <input id="phone" name="phone" type="tel" class="input input-bordered input-primary rounded-sm w-full p-2">
+          <input id="phone" name="phone" type="tel" required
+            class="input input-bordered input-primary rounded-sm w-full p-2">
         </div>
 
         <div class="p-2">
           <label for="message" class="block font-semibold py-1">Briefly describe what kind of web service you have in
             mind</label>
-          <textarea id="message" name="message" minlength="20" maxlength="1500" v-model=message
+          <textarea id="message" name="message" required minlength="20" maxlength="1500" v-model=message
             class="textarea textarea-primary outline-none rounded-sm w-full p-2"></textarea>
           <div v-if="message" class="text-sm text-purple-400"> {{ messageLength }}</div>
         </div>
