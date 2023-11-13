@@ -22,5 +22,4 @@ export default defineNuxtConfig({
   gtag: {
     id: 'G-B8VRZVTMNY'
   },
-
-});
+})

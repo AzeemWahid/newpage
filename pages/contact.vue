@@ -43,18 +43,18 @@
     </div>
 
 
-    <div class="flex mx-auto justify-around w-[90%] md:w-[80%] my-16">
+    <div class="flex flex-col md:flex-row mx-auto justify-around w-[90%] md:w-[80%] my-16">
       <NuxtLink to="https://wa.me/18684818374" target="blank">
-        <div class="card shadow-xl p-8 hover:scale-110 ease-in duration-200">
-          <NuxtImg src="/images/whatsapp.svg" width="100" height="100" />
+        <div class="card shadow-xl p-8 hover:scale-110 ease-in duration-200 w-[50vw] md:w-[100%] mx-auto">
+          <NuxtImg src="/images/whatsapp.svg" width="100" height="100" class="mx-auto" />
           <div class="pt-4 text-center font-semibold text-xl"> Whatsapp
           </div>
         </div>
       </NuxtLink>
 
       <NuxtLink to="tel:+18684818374" target="blank">
-        <div class="card shadow-xl p-8 hover:scale-110 ease-in duration-200">
-          <NuxtImg src="/images/phone.svg" width="100" height="100" />
+        <div class="card shadow-xl p-8 hover:scale-110 ease-in duration-200 w-[50vw] md:w-[100%] mx-auto">
+          <NuxtImg src="/images/phone.svg" width="100" height="100" class="mx-auto" />
           <div class="pt-4 text-center font-semibold text-xl">
             Phone
           </div>
@@ -62,8 +62,8 @@
       </NuxtLink>
 
       <NuxtLink to="mailto:newpagewebservices@gmail.com" target="blank">
-        <div class="card shadow-xl p-8 hover:scale-110 ease-in duration-200">
-          <NuxtImg src="/images/email.svg" width="100" height="100" />
+        <div class="card shadow-xl p-8 hover:scale-110 ease-in duration-200 w-[50vw] md:w-[100%] mx-auto">
+          <NuxtImg src="/images/email.svg" width="100" height="100" class="mx-auto" />
           <div class="pt-4 text-center font-semibold text-xl">
             Email
           </div>
@@ -84,6 +84,7 @@ const messageLength = computed(() => {
 
 const submitForm = (event) => {
   event.preventDefault()
+  console.log('test submit')
 }
 </script>
 
