@@ -15,10 +15,6 @@ export default defineNuxtConfig({
 
   modules: ['nuxt-gtag', '@nuxt/image'],
 
-  image: {
-    provider: 'netlify'
-  },
-
   gtag: {
     id: 'G-B8VRZVTMNY'
   },

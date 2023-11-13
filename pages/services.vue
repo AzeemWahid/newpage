@@ -16,7 +16,7 @@
 
     <div class="flex flex-col items-center md:flex-row md:flex-wrap md:justify-center gap-6 md:gap-0 md:items-stretch">
       <div class="card max-w-[90%] md:max-w-[35%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-xl">
-        <img src="/images/responsive-wide.png" class="pt-2" />
+        <NuxtImg src="/images/responsive-wide.png" class="pt-2" />
         <div class="card-body flex justify-end">
           <div class="card-title text-2xl text-primary">Responsive Design</div>
           <span class="font-semibold">
@@ -26,7 +26,7 @@
       </div>
 
       <div class="card max-w-[90%] md:max-w-[35%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-xl">
-        <img src="/images/ui-wide.png" />
+        <NuxtImg src="/images/ui-wide.png" />
         <div class="card-body">
           <div class="card-title text-2xl text-primary">Seamless Interface</div>
           <span class="font-semibold">
@@ -39,7 +39,7 @@
       </div>
 
       <div class="card max-w-[90%] md:max-w-[35%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-xl">
-        <img src="/images/security1.png" />
+        <NuxtImg src="/images/security1.png" />
         <div class="card-body">
           <div class="card-title text-2xl text-primary">Security</div>
           <span class="font-semibold">
@@ -52,7 +52,7 @@
       </div>
 
       <div class="card max-w-[90%] md:max-w-[35%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-xl">
-        <img src="/images/speed.png" class="pt-6" />
+        <NuxtImg src="/images/speed.png" class="pt-6" />
         <div class="card-body flex justify-end">
           <div class="card-title text-2xl text-primary">High Performance</div>
           <span class="font-semibold">
@@ -79,7 +79,7 @@
       <div
         class="flex flex-col items-center md:flex-row md:flex-wrap md:justify-center gap-6 md:gap-0 md:items-stretch mb-12">
         <div class="card max-w-[90%] md:max-w-[40%] lg:max-w-[25%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-xl">
-          <img src="/images/logo.png" class="pt-6" />
+          <NuxtImg src="/images/logo.png" class="pt-6" />
           <div class="card-body flex justify-end">
             <div class="card-title text-2xl text-primary">Logo Design</div>
             <span class="font-semibold">
@@ -91,7 +91,7 @@
         </div>
 
         <div class="card max-w-[90%] md:max-w-[40%] lg:max-w-[25%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-xl">
-          <img src="/images/branding.png" class="pt-6" />
+          <NuxtImg src="/images/branding.png" class="pt-6" />
           <div class="card-body flex justify-end">
             <div class="card-title text-2xl text-primary">Branding Design</div>
             <span class="font-semibold">
@@ -103,7 +103,7 @@
         </div>
 
         <div class="card max-w-[90%] md:max-w-[40%] lg:max-w-[25%] ring-2 ring-primary m-2 p-2 md:m-8 md:p-8 shadow-xl">
-          <img src="/images/advertising.png" class="pt-6" />
+          <NuxtImg src="/images/advertising.png" class="pt-6" />
           <div class="card-body flex justify-end">
             <div class="card-title text-2xl text-primary">
               Advertisement Design

@@ -2,7 +2,7 @@
   <div class="hero h-[100vh] gradient-background -mt-[4rem]">
     <div class="hero-content flex-col lg:flex-row-reverse">
       <div class="w-[80%] sm:max-w-sm lg:mr-8">
-        <img src="/images/newpage-logo.png" class="rounded-lg shadow-2xl" />
+        <NuxtImg src="/images/newpage-logo.png" class="rounded-lg shadow-2xl" />
       </div>
       <div class="p-8 lg:mr-8">
         <h1 class="text-5xl font-bold text-white">
