@@ -10,10 +10,10 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
-    "/contact": { prerender: true }
+
   },
 
-  modules: ['nuxt-gtag', '@nuxt/image'],
+  modules: ['nuxt-gtag', '@nuxt/image', '@nuxtseo/module'],
 
   image: {
     provider: 'netlify'
