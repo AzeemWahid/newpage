@@ -38,7 +38,7 @@
           <div v-if="message" class="text-sm text-purple-400"> {{ messageLength }}</div>
         </div>
         <div class="px-2 pt-2 flex justify-end">
-          <button class="btn btn-active btn-primary text-white" type="submit" @click="(event) => event.preventDefault()">
+          <button class="btn btn-active btn-primary text-white" type="submit">
             Submit </button>
         </div>
       </form>
