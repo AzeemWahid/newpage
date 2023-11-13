@@ -10,7 +10,7 @@
         Tell us about your website
       </div>
       <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" required value="contact" />
+        <input type="hidden" name="form-name" value="contact" />
 
         <div class="p-2"> <label for="name" class="block font-semibold py-1">Your name </label>
           <input id="name" name="name" type="text" required
