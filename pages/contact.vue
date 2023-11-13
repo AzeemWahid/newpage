@@ -43,7 +43,7 @@
     <div class="flex mx-auto justify-around w-[90%] md:w-[80%] my-16">
       <NuxtLink to="https://wa.me/18684818374" target="blank">
         <div class="card shadow-xl p-8 hover:scale-110 ease-in duration-200">
-          <NuxtImg src="/icons/whatsapp.svg" width="100" height="100" />
+          <NuxtImg src="/images/whatsapp.svg" width="100" height="100" />
           <div class="pt-4 text-center font-semibold text-xl"> Whatsapp
           </div>
         </div>
@@ -51,7 +51,7 @@
 
       <NuxtLink to="tel:+18684818374" target="blank">
         <div class="card shadow-xl p-8 hover:scale-110 ease-in duration-200">
-          <NuxtImg src="/icons/phone.svg" width="100" height="100" />
+          <NuxtImg src="/images/phone.svg" width="100" height="100" />
           <div class="pt-4 text-center font-semibold text-xl">
             Phone
           </div>
@@ -60,7 +60,7 @@
 
       <NuxtLink to="mailto:newpagewebservices@gmail.com" target="blank">
         <div class="card shadow-xl p-8 hover:scale-110 ease-in duration-200">
-          <NuxtImg src="/icons/email.svg" width="100" height="100" />
+          <NuxtImg src="/images/email.svg" width="100" height="100" />
           <div class="pt-4 text-center font-semibold text-xl">
             Email
           </div>
