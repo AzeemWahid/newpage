@@ -9,24 +9,22 @@
       <div class="p-2 text-2xl font-bold">
         Tell us about your website
       </div>
-      <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="contact" />
-
+      <form @submit.prevent="submitForm">
         <div class="p-2">
           <label for="name" class="block font-semibold py-1">Your name </label>
-          <input id="name" required name="name" type="text"
+          <input id="name" required name="name" type="text" v-model="name"
             class="input input-bordered input-primary rounded-sm w-full p-2">
         </div>
 
         <div class="p-2">
           <label for="email" class="block font-semibold py-1">Your email address </label>
-          <input id="email" name="email" required type="email"
+          <input id="email" name="email" required v-model="email" type="email"
             class="input input-bordered input-primary rounded-sm w-full p-2">
         </div>
 
         <div class="p-2">
           <label for="phone" class="block font-semibold py-1">Your contact number </label>
-          <input id="phone" name="phone" required type="tel"
+          <input id="phone" name="phone" required type="tel" v-model="phone"
             class="input input-bordered input-primary rounded-sm w-full p-2">
         </div>
 
@@ -78,7 +76,27 @@
 
 <script setup>
 const message = ref('')
-const text = ref();
+const phone = ref('')
+const email = ref('')
+const name = ref('')
+
+
+async function submitForm() {
+  console.log('fired')
+  const formSubmission = markRaw({
+    name: name.value, email: email.value, phone: phone.value, message: message.value
+  })
+
+  const mailResponse = await useFetch('/api/form', { method: 'POST', body: { formSubmission } })
+  message.value = '', email.value = '', name.value = '', phone.value = ''
+
+  console.log('mailResponse', mailResponse.data.value.mailResponse)
+
+  if (mailResponse.data.value.mailResponse) {
+    const router = useRouter()
+    router.push({ path: "/success" })
+  }
+}
 
 const messageLength = computed(() => {
   return (1500 - message.value.length) + " remaining"
